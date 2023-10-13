@@ -1,0 +1,80 @@
+Identificadores da Observação:
+
+Order: Número da observação.
+PID: Identificação do lote.
+
+Características do Imóvel:
+
+    MS SubClass: Tipo de habitação.
+    MS Zoning: Classificação de zoneamento.
+    Lot Frontage: Metragem linear da rua conectada à propriedade.
+    Lot Area: Tamanho do lote em pés quadrados.
+    Street e Alley: Tipo de acesso à propriedade.
+    Lot Shape: Forma do lote.
+    Land Contour: Nível da propriedade.
+    Utilities: Tipo de utilidades disponíveis.
+    Lot Config: Configuração do lote.
+    Land Slope: Inclinação da propriedade.
+    Neighborhood: Localização dentro dos limites da cidade de Ames.
+
+Condições de Proximidade:
+
+Condition 1 e Condition 2: Proximidade a várias condições.
+
+Características da Casa:
+
+    Bldg Type: Tipo de habitação.
+    House Style: Estilo da casa.
+    Overall Qual e Overall Cond: Avaliação da qualidade e condição geral da casa.
+    Year Built e Year Remod/Add: Ano de construção e remodelação.
+
+Exterior da Casa:
+
+    Roof Style e Roof Matl: Estilo e material do telhado.
+    Exterior 1 e Exterior 2: Cobertura exterior da casa.
+    Mas Vnr Type e Mas Vnr Area: Tipo e área de alvenaria.
+    Exter Qual e Exter Cond: Qualidade e condição do exterior.
+    
+Características da Base e Porão:
+
+    Foundation: Tipo de fundação.
+    Bsmt Qual, Bsmt Cond, Bsmt Exposure, BsmtFin Type 1, BsmtFin SF 1, BsmtFinType 2, e BsmtFin SF 2: Características e condição do porão.
+
+Sistema de Aquecimento e Ar Condicionado:
+
+    Heating e HeatingQC: Tipo e qualidade do aquecimento.
+    Central Air: Ar condicionado central.
+    Electrical: Sistema elétrico.
+
+Espaço Interno:
+
+    1st Flr SF, 2nd Flr SF, Low Qual Fin SF, Gr Liv Area: Área em pés quadrados por andar.
+    Bsmt Full Bath, Bsmt Half Bath, Full Bath, Half Bath: Banheiros.
+    Bedroom, Kitchen: Quartos e cozinhas acima do nível do solo.
+    KitchenQual: Qualidade da cozinha.
+    TotRmsAbvGrd: Total de quartos acima do solo.
+
+Funcionalidade e Lareira:
+
+    Functional: Funcionalidade da casa.
+    Fireplaces e FireplaceQu: Número e qualidade das lareiras.
+
+Garagem:
+
+    Garage Type, Garage Yr Blt, Garage Finish, Garage Cars, Garage Area, Garage Qual, e Garage Cond: Características e condição da garagem.
+
+Exterior e Áreas Adicionais:
+
+    Paved Drive: Tipo de entrada pavimentada.
+    Wood Deck SF, Open Porch SF, Enclosed Porch, 3-Ssn Porch, Screen Porch, Pool Area: Áreas externas.
+    Pool QC e Fence: Qualidade da piscina e da cerca.
+
+Características Diversas:
+
+    Misc Feature e Misc Val: Características e valor de recursos diversos.
+
+Venda:
+
+    Mo Sold e Yr Sold: Mês e ano de venda.
+    Sale Type e Sale Condition: Tipo e condição da venda.
+    SalePrice: Preço de venda.
