@@ -10,7 +10,11 @@ with open('ridge_model.pkl', 'rb') as file:
 
 
 def preprocess_input(input_features):
-    return np.array([input_features])
+
+    with open('data_preprocessing_pipeline.pkl', 'rb') as file:
+        loaded_pipeline = pickle.load(file)
+
+    return loaded_pipeline.transform(input_features)
 
 
 @app.route('/ames/predict', methods=['POST'])
